@@ -8,3 +8,11 @@ padding: 0;
 box-sizing: border-box;
 font-family: "Poppins", serif;
 }
+
+body{
+    background: url('assets/bg.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
