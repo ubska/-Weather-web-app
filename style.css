@@ -43,6 +43,11 @@ body::before{
 }
 
 /* INPUT CONTAINER */
+
+.input-container{
+    position: relative;
+}
+
 .city-input{
     width: 100%;
     padding: 10px 16px;
@@ -52,6 +57,7 @@ body::before{
     outline: none;
     font-weight: 500;
     transition: 0.25s border;
+    padding-right: 45px;
 }
 
 .city-input:focus{
@@ -59,4 +65,15 @@ body::before{
 }
 .city-input::placeholder{
     color: rgb(255, 255, 255,0.75);
+}
+
+.search-btn{
+ position: absolute;
+ right: 10px;
+ top: 50%;
+ transform: translateY(-50%);
+ background: none;
+ display: flex;
+ border: none;
+ cursor: pointer;
 }
