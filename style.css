@@ -42,3 +42,21 @@ body::before{
     padding: 20px;
 }
 
+/* INPUT CONTAINER */
+.city-input{
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 99px;
+    border: 3px solid transparent;
+    background: rgb(0, 0, 0,  0.15);
+    outline: none;
+    font-weight: 500;
+    transition: 0.25s border;
+}
+
+.city-input:focus{
+    border: 3px solid rgb(0,0,0,0.15);
+}
+.city-input::placeholder{
+    color: rgb(255, 255, 255,0.75);
+}
