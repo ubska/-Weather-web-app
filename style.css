@@ -90,18 +90,34 @@ body::before{
 
 /* SECTION: WHEATER INFO */
 .weather-info{
-    
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .location-date-container{
+    border: solid blue;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .location{
+    border: solid green;
     display: flex;
     align-items: center;
     gap: 6px;
+}
+
+.weather-summary-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather-summary-img{
+    width: 120px;
+    height: 120px;
 }
 /*  END SECTION: WHEATER INFO */
