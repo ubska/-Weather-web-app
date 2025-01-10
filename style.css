@@ -176,3 +176,18 @@ background: rgb(255,255,255,0.15);
     height: 35px;
 }
 /*  END SECTION: WHEATER INFO */
+
+/* SECTION: MESSAGE */
+.section-message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+
+}
+.message-img{
+    height: 180px;
+    width: fit-content;
+}
+/* END SECTION: MESSAGE */
