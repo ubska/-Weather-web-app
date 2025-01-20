@@ -141,8 +141,9 @@ body::before{
 .forecast-item-container{
     display: flex;
     gap: 15px;
-    overflow: scroll;
+    overflow-x: scroll;
     padding-bottom: 12px;
+    flex-wrap: nowrap
 }
 
 .forecast-item-container::-webkit-scrollbar{
@@ -172,7 +173,7 @@ body::before{
 background: rgb(255,255,255,0.15);
 }
 .forecast-item-img{
-    widows: 35px;
+    width: 35px;
     height: 35px;
 }
 /*  END SECTION: WHEATER INFO */
