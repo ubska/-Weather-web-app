@@ -184,9 +184,10 @@ background: rgb(255,255,255,0.15);
     align-items: center;
     text-align: center;
     gap: 15px;
+    margin-top: 25%;;
 
 }
-.message-img{
+.section-message img{
     height: 180px;
     width: fit-content;
 }
